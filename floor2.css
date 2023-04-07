@@ -1,0 +1,280 @@
+.floor2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1380px;
+    height: 585px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.catTovarov {
+    width: 350px;
+    height: 585px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+}
+.catTovarovBackGround {
+    position: absolute;
+    width: 350px;
+    height: 585px;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+.Categories {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 15px 0px;
+    gap: 30px;
+    position: absolute;
+    width: 350px;
+    height: 558.82px;
+    left: 0px;
+    top: 0px;
+}
+.CategoriesConsoles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 302px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesAcessyar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 302px;
+    height: 60px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.CategoriesGames {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 302px;
+    height: 60px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.CategoriesZapChasti {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 302px;
+    height: 60px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.CategoriesUslugi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 302px;
+    height: 60px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.Line {
+    width: 320px;
+    height: 0px;
+    border: 1px solid #000000;
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.CategoriesUchenTovari {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 302px;
+    height: 60px;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.CategoriesConsolesLogo {
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesConsolesText {
+    width: 222px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.CategoriesAcessyarLogo {
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesGamesLogo {
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesZapChastiLogo {
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesUslugiLogo {
+    width: 56px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesUchenTovariLogo {
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CategoriesAcessyarText {
+    width: 222px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.CategoriesGamesText {
+    width: 222px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.CategoriesZapChastiText {
+    width: 222px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.CategoriesUslugiText {
+    width: 222px;
+    margin-left: 4px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.CategoriesUchenTovariText {
+    width: 222px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}

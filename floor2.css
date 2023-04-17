@@ -11,35 +11,27 @@
     align-self: stretch;
     flex-grow: 0;
 }
+
 .catTovarov {
     width: 350px;
     height: 585px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    position: absolute;
-}
-.catTovarovBackGround {
-    position: absolute;
-    width: 350px;
-    height: 585px;
-    left: 0px;
-    top: 0px;
     background: #D9D9D9;
     border-radius: 20px;
 }
+
 .Categories {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 15px 15px 0px;
     gap: 30px;
-    position: absolute;
     width: 350px;
     height: 558.82px;
-    left: 0px;
-    top: 0px;
 }
+
 .CategoriesConsoles {
     display: flex;
     flex-direction: row;
@@ -277,4 +269,190 @@
     order: 1;
     align-self: stretch;
     flex-grow: 1;
+}
+
+.RightPartOf2Floor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 995px;
+    height: 585px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.HigherPartOfRightPartOf2Floor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 995px;
+    height: 165px;
+    border-radius: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.LowerPartOfRightPartOf2Floor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 995px;
+    height: 380px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.PersonalAreaBox {
+    width: 293px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 0px 10px;
+    gap: 15px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.StockBox {
+    width: 170px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 0px;
+    gap: 15px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.ConsoleSelectionBox {
+    width: 190px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 0px;
+    gap: 15px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    position: relative;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.GiftCardsBox {
+    width: 176px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 0px;
+    gap: 15px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    position: relative;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.BigFont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.SmallFont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.formaOnPersonalAreaBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    width: 261px;
+    height: 50px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.Button1formaOnPersonalAreaBox {
+    width: 85px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Button2formaOnPersonalAreaBox {
+    width: 133px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }

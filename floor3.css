@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
     gap: 20px;
     width: 1380px;
     height: 144px;
@@ -35,7 +34,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
     gap: 40px;
     width: 1380px;
     height: 100px;

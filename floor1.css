@@ -4,6 +4,7 @@
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
+    position: relative;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -13,7 +14,8 @@
 .DivCatalogP {
     width: 350px;
     height: 100px;
-    position: absolute;
+    position: relative;
+    /* position: absolute; */
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -84,7 +86,8 @@ align-items: center;*/
 .Searcher form {
     height: 100px;
     width: 643px;
-    position: absolute;
+    position: relative;
+    /* position: absolute; */
     background: #EAEAEA;
     border-radius: 10px;
 }

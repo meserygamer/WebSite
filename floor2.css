@@ -17,8 +17,9 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    background: #D9D9D9;
+    background: #FFFFFF00;
     border-radius: 20px;
+    border: 0px solid #4380D3;
 }
 
 .Categories {
@@ -94,7 +95,7 @@
 .Line {
     width: 320px;
     height: 0px;
-    border: 1px solid #000000;
+    border: 1px solid #4380D3;
     flex: none;
     order: 5;
     align-self: stretch;
@@ -125,6 +126,7 @@
     width: 222px;
     height: 60px;
     font-family: 'Inter';
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -183,6 +185,7 @@
     height: 60px;
     font-family: 'Inter';
     font-style: normal;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -200,6 +203,7 @@
     height: 60px;
     font-family: 'Inter';
     font-style: normal;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -217,6 +221,7 @@
     height: 60px;
     font-family: 'Inter';
     font-style: normal;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -235,6 +240,7 @@
     height: 60px;
     font-family: 'Inter';
     font-style: normal;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -252,6 +258,7 @@
     height: 60px;
     font-family: 'Inter';
     font-style: normal;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -377,6 +384,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
+
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -391,6 +399,7 @@
 .SmallFont {
     font-family: 'Inter';
     font-style: normal;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -416,11 +425,13 @@
     width: 85px;
     height: 50px;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #000000;
+    background: #4380D3;
+    border: 0px solid #000000;
     border-radius: 20px;
     font-family: 'Inter';
     font-style: normal;
+
+    color: white;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -440,7 +451,7 @@
     line-height: 19px;
     box-sizing: border-box;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid #4380D3;
     border-radius: 20px;
     /* Inside auto layout */
     flex: none;
@@ -465,10 +476,10 @@
     width: 85px;
     height: 50px;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #000000;
+    background: #DCDCDC;
+    border: 0px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -484,10 +495,10 @@
     width: 100px;
     height: 50px;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #000000;
+    background: #DCDCDC;
+    border: 0px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -503,10 +514,10 @@
     width: 92px;
     height: 50px;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #000000;
+    background: #DCDCDC;
+    border: 0px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -522,10 +533,10 @@
     width: 102px;
     height: 50px;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #000000;
+    background: #DCDCDC;
+    border: 0px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -558,7 +569,8 @@
     background: #F500FA;
     border-radius: 20px;
 }
-.ButtonLeftSlider1{
+
+.ButtonLeftSlider1 {
     position: absolute;
     box-sizing: border-box;
     width: 60px;
@@ -566,6 +578,8 @@
     left: 7.89px;
     border-radius: 100%;
     top: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: gray;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -573,9 +587,10 @@
     line-height: 39px;
     text-align: center;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
 }
-.ButtonLeftSlider2{
+
+.ButtonLeftSlider2 {
     position: absolute;
     box-sizing: border-box;
     width: 60px;
@@ -589,6 +604,8 @@
     font-size: 32px;
     line-height: 39px;
     text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: gray;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
 }

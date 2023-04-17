@@ -36,7 +36,7 @@
     height: 100px;
     left: 0px;
     top: 0px;
-    background: #D9D9D9;
+    background: #4380D3;
     border-radius: 20px;
 }
 
@@ -51,6 +51,7 @@
 
 .KatText {
     font-family: 'Inter';
+    src: url("../MainSite/Inter-Regular.otf");
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -67,9 +68,10 @@ align-items: center;*/
     height: 50px;
     left: 186px;
     top: 25px;
-    background: #767676;
+    background: #6996D3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    border: 0px;
 }
 
 .Searcher {
@@ -104,6 +106,7 @@ align-items: center;*/
     padding-left: 32px;
     font-family: 'Inter';
     font-style: normal;
+    src: url("../MainSite/Inter-Regular.otf");
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -194,6 +197,7 @@ align-items: center;*/
     margin-top: 2px;
     height: 22px;
     font-family: 'Inter';
+    src: url("../MainSite/Inter-Regular.otf");
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -209,6 +213,7 @@ align-items: center;*/
     margin-top: 2px;
     height: 22px;
     font-family: 'Inter';
+    src: url("../MainSite/Inter-Regular.otf");
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -224,6 +229,7 @@ align-items: center;*/
     margin-top: 2px;
     height: 22px;
     font-family: 'Inter';
+    src: url("../MainSite/Inter-Regular.otf");
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

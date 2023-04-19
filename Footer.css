@@ -1,0 +1,49 @@
+.FooterInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 0px;
+    gap: 50px;
+    width: 1440px;
+    height: 475px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutCompany {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 311px;
+    height: 440px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ForBuyers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 588px;
+    height: 352px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 402px;
+    height: 467px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}

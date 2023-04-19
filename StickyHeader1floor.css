@@ -3,11 +3,9 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 40px;
-    position: relative;
     /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .DivCatalogP {

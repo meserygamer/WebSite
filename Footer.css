@@ -29,8 +29,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    width: 588px;
-    height: 352px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -45,5 +43,173 @@
     height: 467px;
     flex: none;
     order: 2;
+    flex-grow: 0;
+}
+.HeadFonts{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Line1{
+    width: 100%;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.DivForNormalFont1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.DivForNormalFontWithoutPositionInAutoLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+.NormalFont{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.SmallSizeFont{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8C8C8C;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.DivForNormalFont2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 90px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.DivForTelephoneAndAdress{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.DivForFormInputEmail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.FormInputEmail{
+    width: 402px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+}
+.FormInputEmail input{
+    height: 100%;
+    width: 80%;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    outline: none;
+    padding-left: 15px;
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.FormInputEmail button{
+    border: none;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 5px;
+    cursor: pointer;
+    background:#8C8C8C;
+}
+.DivForSocialClub{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.VKButton{
+    width: 60px;
+    height: 60px;
+    background: #404040;
+    border-radius: 10px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.YoutubeButton{
+    width: 60px;
+    height: 60px;
+    background: #404040;
+    border-radius: 10px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.DivForGooglePlay{
+    width: 220px;
+    height: 60px;
+    background: #404040;
+    border-radius: 10px;
+    flex: none;
+    order: 5;
     flex-grow: 0;
 }

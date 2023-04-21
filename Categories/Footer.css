@@ -172,7 +172,7 @@
     width: 60px;
     top: 5px;
     cursor: pointer;
-    background: url(Drawable/SendOnServerMail.png);
+    background: url(../Drawable/SendOnServerMail.png);
 }
 .DivForSocialClub{
     display: flex;
@@ -187,7 +187,7 @@
 .VKButton{
     width: 60px;
     height: 60px;
-    background: #404040 url(Drawable/VKButton.png);
+    background: #404040 url(../Drawable/VKButton.png);
     border-radius: 10px;
     /* Inside auto layout */
     flex: none;
@@ -197,7 +197,7 @@
 .YoutubeButton{
     width: 60px;
     height: 60px;
-    background: #404040 url(Drawable/YoutubeButton.png);
+    background: #404040 url(../Drawable/YoutubeButton.png);
     border-radius: 10px;
     /* Inside auto layout */
     flex: none;

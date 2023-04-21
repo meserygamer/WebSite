@@ -1,0 +1,37 @@
+.CatDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1385px;
+    height: 712px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.CatDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+.CatPlace{
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+.CatPlace .MainFont{
+    position: absolute;
+    top: 240px;
+    width: 300px;
+}
+.CatImg{
+    width: 300px;
+    height: 300px;
+}

@@ -6,20 +6,23 @@
         <link rel="Stylesheet" href="MainStylesFile.css" />
         <link rel="Stylesheet" href="../Roof.css" />
         <link rel="Stylesheet" href="../StickyHeader1floor.css" />
-        <link rel="Stylesheet" href="NavigationMap.css"/>
+        <link rel="Stylesheet" href="Fonts.css"/>
+        <link rel="Stylesheet" href="CategPart.css"/>
+        <link rel="Stylesheet" href="PopularCategories.css"/>
+        <link rel="Stylesheet" href="Footer.css"/>
     </head>
     <body>
         <header>
             <div class="Roof">
                 <div class="city">
-                  <img class="cityIMG" src="Drawable/Geo_1.png" />
+                  <img class="cityIMG" src="../Drawable/GeoBlue.png" />
                   <font class="cityName">Нижний Новгород</font>
                 </div>
                 <div class="RoofRazd">
-                  <font class="NameRazd">Акции</font>
-                  <font class="NameRazd">Магазины</font>
-                  <font class="NameRazd">Покупателям</font>
-                  <font class="NameRazd">Юридическим лицам</font>
+                  <a href=""><font class="NameRazd">Акции</font></a>
+                  <a href=""><font class="NameRazd">Магазины</font></a>
+                  <a href=""><font class="NameRazd">Покупателям</font></a>
+                  <font class="NameRazd"><a href="">Юридическим лицам</a></font>
                 </div>
                 <font class="Tel">8 (800) 5553 535 (с 3:00 до 20:00)</font>
             </div>
@@ -29,10 +32,12 @@
                 <div class="DivCatalog">
                   <div class="DivCatalogP">
                     <div class="KatlBack"></div>
-                    <div class="Katlogo"></div>
-                    <button class="catButton" type="button">
-                      <font class="KatText">Каталог</font>
-                    </button>
+                    <img class="Katlogo" src = "../Drawable/Logo.png"></img>
+                    <a href="">
+                      <button class="catButton" type="button">
+                        <font class="KatText">Каталог</font>
+                      </button>
+                    </a>
                   </div>
                 </div>
                 <div class="Searcher">
@@ -42,26 +47,177 @@
                   </form>
                 </div>
                 <div class="RighterThanSearchBar">
-                  <div class="Favorit">
-                    <img class="FavoritP" src="Drawable/HeartP.png" />
-                    <font class="FavoritT">Избранное</font>
-                  </div>
-                  <div class="ShoppingСart">
-                    <img class="ShoppingСartP" src="Drawable/ShoppingСartP.png" />
-                    <font class="ShoppingСartT">Корзина</font>
-                  </div>
-                  <div class="account">
-                    <img class="accountP" src="Drawable/accountP.png" />
-                    <font class="accountT">Войти</font>
-                  </div>
+                  <a href="">
+                    <div class="Favorit">
+                      <img class="FavoritP" src="../Drawable/HeartPBlue.png" />
+                      <font class="FavoritT">Избранное</font>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="ShoppingСart">
+                      <img class="ShoppingСartP" src="../Drawable/ShoppingСartPBlue.png" />
+                      <font class="ShoppingСartT">Корзина</font>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="account">
+                      <img class="accountP" src="../Drawable/accountPBlue.png" />
+                      <font class="accountT">Войти</font>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
         </div>
         <main>
-            <font class = "MainFont">BOX<font class = "SemiFont"> &gt; Каталог</font></font>
+            <font class = "MainFont"><a href="../MainSite.html">BOX</a><font class = "SemiFont">&nbsp;&gt; Каталог</font></font>
+            <div class = "CatDiv">
+              <font class = "BigFont">Каталог товаров</font>
+              <div class = "CatDiv2">
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Игровые консоли</font>
+                    <img class = "CatImg" src="../Drawable/PS4.png">
+                  </div>
+                </a>
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Акссесуары</font>
+                    <img class = "CatImg" src="../Drawable/GamepadPS4.png">
+                  </div>
+                </a>
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Комплектующие</font>
+                    <img class = "CatImg" src="../Drawable/SSD.png">
+                  </div>
+                </a>
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Консольные игры</font>
+                    <img class = "CatImg" src="../Drawable/Witcher3.png">
+                  </div>
+                </a>
+              </div>
+              <div class = "CatDiv2">
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Игровые консоли</font>
+                    <img class = "CatImg" src="../Drawable/PS4.png">
+                  </div>
+                </a>
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Акссесуары</font>
+                    <img class = "CatImg" src="../Drawable/GamepadPS4.png">
+                  </div>
+                </a>
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Комплектующие</font>
+                    <img class = "CatImg" src="../Drawable/SSD.png">
+                  </div>
+                </a>
+                <a href="">
+                  <div class = "CatPlace">
+                    <font class = "MainFont">Консольные игры</font>
+                    <img class = "CatImg" src="../Drawable/Witcher3.png">
+                  </div>
+                </a>
+            </div>
+            <div class = "PopularCategories">
+              <font class = "BigFont">Популярные категории</font>
+              <div class = "Slider">
+                <button type = "button" class = "Circule">&lt;</button>
+                <div class = "PopularCatPlace">
+                  <font class = "ZagFontForPopular">Консоли Xbox</font>
+                  <img class = "ImgPopImg" src="../Drawable/XboxSeriesOnPopularCat.png">
+                  <a href=""><font class = "SemiFontForPopular">Xbox Series</font></a>
+                  <a href=""><font class = "SemiFontForPopular">Xbox One</font></a>
+                  <a href=""><font class = "SemiFontForPopular">Xbox 360</font></a>
+                </div>
+                <div class = "PopularCatPlace">
+                  <font class = "ZagFontForPopular">Консоли Sony</font>
+                  <a href=""><font class = "SemiFontForPopular">Playstation 5</font></a>
+                  <a href=""><font class = "SemiFontForPopular">Playstation 4</font></a>
+                  <a href=""><font class = "SemiFontForPopular">Playstation 3</font></a>
+                  <img class = "ImgPopImg" src="../Drawable/PS4OnPopularCat.png">
+                </div>
+                <div class = "PopularCatPlace">
+                  <font class = "ZagFontForPopular">Консоли Nintendo</font>
+                  <a href=""><font class = "SemiFontForPopular">Nintendo Switch</font></a>
+                  <a href=""><font class = "SemiFontForPopular">Nintendo Wii</font></a>
+                  <a href=""><font class = "SemiFontForPopular">Nintendo Wiu</font></a>
+                  <img class = "ImgPopImg" src="../Drawable/SwitchOnPopularCat.png">
+                </div>
+                <button type = "button" class = "Circule">&gt;</button>
+              </div>
+            </div>
         </main>
         <footer>
+          <div class = "FooterInfo">
+            <div class = "AboutCompany">
+              <font class = "HeadFonts">Компания</font>
+              <div class = "Line1"></div>
+              <div class = "DivForNormalFont1">
+                <a href=""><font class = "NormalFont">О компании</font></a>
+                <a href=""><font class = "NormalFont">Новости</font></a>
+                <a href=""><font class = "NormalFont">Партнёрам</font></a>
+                <a href=""><font class = "NormalFont">Вакансии</font></a>
+                <a href=""><font class = "NormalFont">Политика конфиденциальности</font></a>
+                <a href=""><font class = "NormalFont">Персональные данные</font></a>
+                <a href=""><font class = "NormalFont">Правила продаж</font></a>
+                <a href=""><font class = "NormalFont">Правила использования сайта</font></a>
+                <a href=""><font class = "NormalFont">Сервисные центры</font></a>
+              </div>
+            </div>
+            <div class = "ForBuyers">
+              <font class = "HeadFonts">Покупателям</font>
+              <div class = "Line1"></div>
+              <div class = "DivForNormalFont2">
+                <div class = "DivForNormalFontWithoutPositionInAutoLayout">
+                  <a href=""><font class = "NormalFont">Как оформить заказ</font></a>
+                  <a href=""><font class = "NormalFont">Способы оплаты</font></a>
+                  <a href=""><font class = "NormalFont">Кредиты</font></a>
+                  <a href=""><font class = "NormalFont">Доставка</font></a>
+                  <a href=""><font class = "NormalFont">Статус заказа</font></a>
+                  <a href=""><font class = "NormalFont">Обмен, возврат, гарантия</font></a>
+                  <a href=""><font class = "NormalFont">Проверка статуса ремонта</font></a>
+                </div>
+                <div class = "DivForNormalFontWithoutPositionInAutoLayout">
+                  <a href=""><font class = "NormalFont">Юридическим лицам</font></a>
+                  <a href=""><font class = "NormalFont">Проверка счета</font></a>
+                  <a href=""><font class = "NormalFont">Корпоративные отделы</font></a>
+                  <a href=""><font class = "NormalFont">Подарочные карты</font></a>
+                  <a href=""><font class = "NormalFont">Бонусная программа</font></a>
+                  <a href=""><font class = "NormalFont">Помощь</font></a>
+                  <a href=""><font class = "NormalFont">Обратная связь</font></a>
+                </div>
+              </div>
+            </div>
+            <div class = "Contacts">
+              <font class = "HeadFonts">Отставайтесь на связи</font>
+              <div class = "Line1"></div>
+              <div class = "DivForTelephoneAndAdress">
+                <font class = "HeadFonts">8 (800) 5553 535 (с 3:00 до 20:00)</font>
+                <font class = "NormalFont">Адреса магазинов в г. Нижний Новгород</font>
+              </div>
+              <div class = "DivForFormInputEmail">
+                <font class = "HeadFonts">Следите за новинками и акциями</font>
+                <form class = "FormInputEmail">
+                  <input type="text" placeholder="Введите email и подпишитесь"/>
+                  <button type="submit"></button>
+                </form>
+                <font class = "SmallSizeFont">Подписываясь на рассылку, вы соглашаетесь<br>
+                  с условиями политики конфиденциальности и<br>
+                  политики обработки персональных данных</font>
+              </div>
+              <div class = "DivForSocialClub">
+                <a href=""><div class = "VKButton"></div></a>
+                <a href=""><div class = "YoutubeButton"></div></a>
+              </div>
+            </div>
+          </div>
         </footer>
     </body>
 </html>

@@ -30,7 +30,7 @@ main{
     gap: 40px;
     position: relative;
     width: 1380px;
-    height: 1305px;
+    height: 1105px;
     /* width: 1440px;
     height: 1514px; */
     margin-left: auto;
@@ -50,4 +50,13 @@ main{
     margin-bottom: 20px;
     align-items: center;
     height: 120px;
+}
+a {
+    text-decoration:none;
+}
+.NameRazd a{
+    color:black;
+}
+.MainFont a{
+    color:black;
 }

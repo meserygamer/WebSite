@@ -51,3 +51,9 @@ footer{
     align-items: center;
     height: 120px;
 }
+a {
+    text-decoration:none;
+}
+.NameRazd a{
+    color:black;
+}

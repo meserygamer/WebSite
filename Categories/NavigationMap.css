@@ -1,0 +1,16 @@
+.MainFont{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.SemiFont{
+    color: gray;
+}
